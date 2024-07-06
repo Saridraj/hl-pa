@@ -23,6 +23,7 @@ When have a request to get customer data, master data, and transaction data. Beg
 Fig. 1.3 : Sequence diagram 
 
 Finally, the client can call API to get all data with API path name /getDataAggregated and must send the parameter userId and token within the request.
+
 ----
 
 ### Answer of Question 2.
