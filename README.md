@@ -39,8 +39,10 @@ Design performance test cases of each scenario. Plan sequence and timing of test
 4. Select test tools
 Select tools for performance testing in each KPI like Gatling([https://docs.gatling.io/tutorials/scripting-intro-js/](https://docs.gatling.io/tutorials/scripting-intro-js/)), LoadRunner([https://www.opentext.com/en-gb/products/loadrunner-professional](https://www.opentext.com/en-gb/products/loadrunner-professional)), JMeter([https://jmeter.apache.org](https://jmeter.apache.org)), and etc.
 5. Execute test
+From the test case, test plan, and test tool execute the performance test and collect the test result. In this process, the output is the test result.
 6. Analyze and reports
-7. Optimize and re-test
-
+Compare actual performance with criteria of testing. Identify issues of performance to be optimized. Develop a report of performance test.
+7. Optimize 
+If the performance test result is not good or does not pass criteria can optimize the software and re-testing.
    
 
