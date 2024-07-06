@@ -1,6 +1,9 @@
 # HL-PA
 
 ## Backend Questions
+
+----
+
 ### Answer of Question 1.
 
 For an overview of the system follow the question. So, the design architecture diagram is shown in Fig. 1.1 below. The system starts with 3 microservices: customer service, master data service, and transaction data service. Each microservice is the necessary database owner like a customer database, master data database, and transaction data service respectively. When an external request is received, it is first handled by the API Gateway. This setup aligns with the microservice architecture pattern.
