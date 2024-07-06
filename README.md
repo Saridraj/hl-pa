@@ -11,11 +11,9 @@ To understand the system overview, please refer to the description below. The pr
 
 
 
-![architecture diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720244389/HLAB-Architecture_Diagram_oopsbw.jpg)
-
+![architecture diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720244389/HLAB-Architecture_Diagram_oopsbw.jpg) \n
 Fig. 1.1 : Architecture diagram
-\
-\
+
 
 
 ![class diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720244482/HLAB-Class_Diagram_nkw46w.jpg)
