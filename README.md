@@ -17,6 +17,7 @@ Fig. 1.1 : Architecture diagram
 Fig. 1.2 : Class diagram
 
 
+
 ![sequence diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720244488/Untitled_19_sylyvk.png)
 
 Fig. 1.3 : Sequence diagram
