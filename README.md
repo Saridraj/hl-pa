@@ -11,7 +11,7 @@ To provide API for display data from 3 microservices above nearly real-time. The
 Fig. 1.1 : Architecture diagram 
 
 
-
+The component of each microservice is shown in the class diagram in Fig. 1.2 below. API Gateway has the APIGatewayController class which routes the request to internal microservices. All microservices include data aggregate service consisting of controller class handle request, service class handle about business logic as same as. However 3 microservices: customer service, master data service, and transaction data services have entity classes of data that each microservice owns. Every microservices and API gateway has the authorization class with concern about the security of the system.
 ![class diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720244482/HLAB-Class_Diagram_nkw46w.jpg) \
 Fig. 1.2 : Class diagram 
 
