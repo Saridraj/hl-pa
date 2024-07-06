@@ -26,13 +26,17 @@ Fig. 1.3: Sequence diagram
 Finally, the client can call API to get all data with API path name /getDataAggregated and must send the parameter userId and token within the request.
 
 ### Answer of Question 2.
-For performance test in the relaease recommend follows this proceed. 
+
 ![sequence diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720258176/HLAB-performance_test_ss3zgk.jpg) \
 Fig. 2.1: Activity diagram of performance testing
-
-1. Define performance test objective
+The performance test in this release recommends that proceed to conform to the activity diagram in Fig. 2.1 above which consists of defining the objective, identifying the scope, creating a test plan, selecting tools, executing, analyzing, reporting, and optimizing software. The details are as follows:
+1. Define performance test objective 
+Identify the KPI of testing. What is the indicator of the testing, speed, response time, throughput, load, resource usage, and stability? And define the criteria of each KPI. This process output is the test objective and criteria.
 2. Identify scope
-3. Creat test plan
+Identify which components, modules, and integrations will be tested. This process output is the test scope.
+3. Create test plan
+
+
 4. Select test tools
 5. Execute test
 6. Analyze and reports
