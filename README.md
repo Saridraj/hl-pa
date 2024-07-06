@@ -27,16 +27,17 @@ Finally, the client can call API to get all data with API path name /getDataAggr
 
 ### Answer of Question 2.
 
-![sequence diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720258176/HLAB-performance_test_ss3zgk.jpg) \
+![sequence diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720285851/HLAB-performance_test_js35gn.jpg) \
 Fig. 2.1: Activity diagram of performance testing
 The performance test in this release recommends that proceed to conform to the activity diagram in Fig. 2.1 above which consists of defining the objective, identifying the scope, creating a test plan, selecting tools, executing, analyzing, reporting, and optimizing software. The details are as follows:
 1. Define performance test objective 
-Identify the KPI of testing. What is the indicator of the testing, speed, response time, throughput, load, resource usage, and stability? And define the criteria of each KPI. This process output is the test objective and criteria.
+Form non-functional requirement can identify the KPI of performance testing. What is the indicator of the testing, speed, response time, throughput, load, resource usage, and stability? And define the criteria of each KPI. This process output is the test objective and criteria.
 2. Identify scope
 Identify which components, modules, and integrations will be tested. This process output is the test scope.
 3. Create test plan
 Design performance test cases of each scenario. Plan sequence and timing of test case by concern about coverage and config of test case. This process output is a test case and schedule.
 4. Select test tools
+Select tools for performance testing in each KPI like Gatling![](https://docs.gatling.io/tutorials/scripting-intro-js/), LoadRunner, JMeter, and etc.
 5. Execute test
 6. Analyze and reports
 7. Optimize and re-test
