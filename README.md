@@ -27,8 +27,8 @@ Finally, the client can call API to get all data with API path name /getDataAggr
 
 ### Answer of Question 2.
 For performance test in the relaease recommend follows this proceed. 
-![sequence diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720257663/HLAB-performance_test_jteadm.jpg) \
-Fig. 1.3: Sequence diagram 
+![sequence diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720257851/HLAB-performance_test-2_jk3mmk.jpg) \
+Fig. 2.1: Activity diagram of performance testing
 
 1. Define performance test objective
 2. Identify scope
