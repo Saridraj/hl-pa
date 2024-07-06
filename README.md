@@ -45,4 +45,6 @@ Compare actual performance with criteria of testing. Identify issues of performa
 7. Optimize 
 If the performance test result is not good or does not pass criteria can optimize the software and re-testing.
    
+## React Questions
+### Answer of Question 1.
 
