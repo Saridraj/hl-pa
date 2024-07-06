@@ -35,8 +35,7 @@ Identify the KPI of testing. What is the indicator of the testing, speed, respon
 2. Identify scope
 Identify which components, modules, and integrations will be tested. This process output is the test scope.
 3. Create test plan
-
-
+Design performance test cases of each scenario. Plan sequence and timing of test case by concern about coverage and config of test case. This process output is a test case and schedule.
 4. Select test tools
 5. Execute test
 6. Analyze and reports
