@@ -71,7 +71,12 @@ Source code of the system can access with [https://github.com/Saridraj/hl-pa-pro
 
 - data validation handle by Type determination in entity class
 
-- system design
+- system design \
+  ![](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720383229/HLAB-Page-4_vahzgk.jpg)
+
+    ![](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720383224/Screenshot_2567-07-08_at_03.12.28_riuizl.png)
+
+    ![](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720383226/Screenshot_2567-07-08_at_03.12.13_iz58yg.png)
 
 - testing \
   plan to test the system in 3 level is unit test, integration test (end-to-end), and API test follows:
