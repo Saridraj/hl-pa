@@ -72,13 +72,13 @@ Source code of the system can access with [https://github.com/Saridraj/hl-pa-pro
 - data validation handle by Type determination in entity class
 
 - system design \
-  The system consist of 3 important class is ProductController class handle routing when have the request about create product or search product, ProductService class handle about create product operation, and ProductTranslationService handle about addProductTranslation and search product. Both service class work with Product entity and ProductTranslation entity which have a field detail follow Fig 3.1
+  The system consist of 3 important class is ProductController class handle routing when have the request about create product or search product, ProductService class handle about create product operation, and ProductTranslationService handle about addProductTranslation and search product. Both service class work with Product entity and ProductTranslation entity which have a field detail follow Fig 3.1. 
 
   ![](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720383229/HLAB-Page-4_vahzgk.jpg) \
   Fig. 3.1 class diagram
 
 
-  So, the system have 2 table on database is Product table show in Fig. 3.2 and ProductTranslation table show in Fig. 3.3.
+  So, the system have 2 table on database is Product table show in Fig. 3.2 and ProductTranslation table show in Fig. 3.3. And design of database use Additional Translation Table Approach that ease in adding a new language and easy to query.
 
     ![](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720383224/Screenshot_2567-07-08_at_03.12.28_riuizl.png) \
    Fig. 3.2 Table of product
@@ -86,7 +86,6 @@ Source code of the system can access with [https://github.com/Saridraj/hl-pa-pro
     ![](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720383226/Screenshot_2567-07-08_at_03.12.13_iz58yg.png) \
    Fig. 3.3 Table of product translation
 
-  Design of database use Additional Translation Table Approach that ease in adding a new language and easy to query.
 
    ![](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720385987/Screenshot_2567-07-08_at_03.55.50_j6dsur.png) \
    Fig. 3.4 Result of search product by name in any language.
