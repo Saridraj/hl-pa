@@ -54,7 +54,7 @@ The callback function is a function that passes as an argument to another functi
 To prevent unnecessary re-rendering of child components can use useCallback. It avoids new functions in every render. But it caches the callback function and re-renders it when having dependency change only.
 
 ### Answer of Question 2.
-Repository of source code can access with 
+Test script repository of unit test can access with 
 [https://github.com/Saridraj/hl-pa-react-unit-testing.git](https://github.com/Saridraj/hl-pa-react-unit-testing.git)) 
 
 The project consist of main component is src/app/page.tsx that is a Home page of the project and have a UserProfile component in folder components. Folder __testr__ collect the test script like Home.test.tsx and UserProfile.test.tsx.
