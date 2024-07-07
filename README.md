@@ -63,13 +63,21 @@ Source code of the system can access with [https://github.com/Saridraj/hl-pa-pro
   }
   ```
 
+   For search product by name in any language use method GET to path /products/search and send query like name, page, and limit. example in below
+
+   ```bash
+   http://localhost:3000/products/search?name=Phone&page=2&limit=5
+  ```
 
 - data validation handle by Type determination in entity class
 
 - system design
 
-- testing
-
+- testing \
+  plan to test the system in 3 level is unit test, integration test (end-to-end), and API test follows:
+    1. unit test: Use jest execute unit test. The system have 2 file component need to execute unit test is product.service.ts and product.controller.ts by script in product.service.spec.ts and product.controller.spec.ts. In the product.service.spec.ts must have test case about creation of product and search product by name cover two class (ProductService, ProductTranslationService) in this service file. For product.controller.spec.ts must have test script about product creation and product search by name.
+    2. e2e test: User jest e2e test. in test folder of the project have file app.e2e-spec.ts which collect the test script to test end-to-end form app module to product service. Test script must have cover to create product operation and search product operation.
+    3. API test: Use postman execute API test. Send request with http method to path of API and send request body and query parameter within the request. this testing nearly request sending from the client and help to check avaliable of the API system.
 
 
 ## React Questions
