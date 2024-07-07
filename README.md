@@ -83,10 +83,10 @@ Source code of the system can access with [https://github.com/Saridraj/hl-pa-pro
     ![](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720383224/Screenshot_2567-07-08_at_03.12.28_riuizl.png) \
    Fig. 3.2 Table of product
 
-    ![](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720383226/Screenshot_2567-07-08_at_03.12.13_iz58yg.png) \ 
+    ![](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720383226/Screenshot_2567-07-08_at_03.12.13_iz58yg.png) \
    Fig. 3.3 Table of product translation
 
-  Design of database use additional Translation Table Approach that ease in adding a new language and easy to query.
+  Design of database use Additional Translation Table Approach that ease in adding a new language and easy to query.
 
 
 - testing \
