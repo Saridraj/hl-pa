@@ -44,7 +44,19 @@ From the test case, test plan, and test tool execute the performance test and co
 Compare actual performance with criteria of testing. Identify issues of performance to be optimized. Develop a report of performance test.
 7. Optimize 
 If the performance test result is not good or does not pass criteria can optimize the software and re-testing.
-   
+
+### Answer of Question 3.
+Source code of the system can access with [https://github.com/Saridraj/hl-pa-product-api.git](https://github.com/Saridraj/hl-pa-product-api.git). 
+- API endpoint
+
+- data validation handle by Type determination in entity class
+
+- system design
+
+- testing
+
+
+
 ## React Questions
 ### Answer of Question 1.
 React useCallback is used to memorize callback functions reducing unnecessary re-renders to optimize performance.
