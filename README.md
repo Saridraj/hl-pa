@@ -51,7 +51,16 @@ Source code of the system can access with [https://github.com/Saridraj/hl-pa-pro
   For create product use method POST to path /products and send request body like below structure.
 
    ```bash
-
+  {
+    translation: [
+        {
+            languageCode: string,
+            name: string,
+            description: string
+        }
+    ],
+    createdBy: number
+}
   ```
 
 
