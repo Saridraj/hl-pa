@@ -47,4 +47,11 @@ If the performance test result is not good or does not pass criteria can optimiz
    
 ## React Questions
 ### Answer of Question 1.
+React useCallback is used to memorize callback functions reducing unnecessary re-renders to optimize performance.
+
+The callback function is a function that passes as an argument to another function or child component. When used callback function without useCallback affects child component unnecessary re-render.
+
+To prevent unnecessary re-rendering of child components can use useCallback. It avoids new functions in every render. But it caches the callback function and re-renders it when having dependency change only.
+
+### Answer of Question 2.
 
