@@ -48,6 +48,12 @@ If the performance test result is not good or does not pass criteria can optimiz
 ### Answer of Question 3.
 Source code of the system can access with [https://github.com/Saridraj/hl-pa-product-api.git](https://github.com/Saridraj/hl-pa-product-api.git). 
 - API endpoint
+  For create product use method POST to path /products and send request body like below structure.
+
+   ```bash
+
+  ```
+
 
 - data validation handle by Type determination in entity class
 
