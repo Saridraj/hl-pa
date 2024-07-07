@@ -63,7 +63,7 @@ Source code of the system can access with [https://github.com/Saridraj/hl-pa-pro
   }
   ```
 
-   For search product by name in any language use method GET to path /products/search and send query like name, page, and limit. example in below
+   For search product by name in any language use method GET to path /products/search and send query like name, page, and limit. example in below and the result show in pagination format follows Fig 3.4
 
    ```bash
    http://localhost:3000/products/search?name=Phone&page=2&limit=5
@@ -87,6 +87,10 @@ Source code of the system can access with [https://github.com/Saridraj/hl-pa-pro
    Fig. 3.3 Table of product translation
 
   Design of database use Additional Translation Table Approach that ease in adding a new language and easy to query.
+
+   ![](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720385987/Screenshot_2567-07-08_at_03.55.50_j6dsur.png) \
+   Fig. 3.4 Result of search product by name in any language.
+
 
 
 - testing \
