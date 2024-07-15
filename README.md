@@ -27,7 +27,7 @@ Finally, the client can call API to get all data with API path name /getDataAggr
 
 ### Answer of Question 2.
 
-![sequence diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720285851/HLAB-performance_test_js35gn.jpg) \
+![sequence diagram](https://res.cloudinary.com/dmdxfjunb/image/upload/v1720288294/HLAB-performance_test_wcog4q.jpg) \
 Fig. 2.1: Activity diagram of performance testing
 The performance test in this release recommends that proceed to conform to the activity diagram in Fig. 2.1 above which consists of defining the objective, identifying the scope, creating a test plan, selecting tools, executing, analyzing, reporting, and optimizing software. The details are as follows:
 1. Define performance test objective 
